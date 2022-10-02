@@ -1,0 +1,147 @@
+body{
+    box-sizing: border-box;
+    font-family: -apple-system,BlinkMacSystemFont, "Segoe 
+    UI",Roboto,"Helvetica Neue",Arial,"Noto Sans", sans-
+    serif;
+    font-size: 18px;
+    color:#2D3748;
+    overflow-x: hidden;
+}
+:root{
+    --head-background:#63B3ED;
+    --header-color-white:#FFFFFF;
+    --head-font:Georgia, 
+    'Times New Roman', Times, serif;
+    --head-color:#000000;
+    --h1:36px;
+    --h2:32px;
+    --post-color:#48BB78;
+}
+.container{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    gap:2em;
+    margin: 0 auto;
+    justify-content: center;
+    width: 960px;
+
+}
+
+header{
+    display:flex;
+    background-color: #63B3ED;
+    color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    flex-direction: column;
+    grid-column: span 2;
+}
+
+main{
+    grid-column: span 1;
+    grid-row: 2;
+    padding: 16px
+  }
+
+
+aside{
+    padding: 16px;
+    grid-column: span 3;
+    grid-row: 2;
+}
+.about{
+    background-color: #E2E8F0;
+    color:#000000;
+    padding:.5em;
+    margin:.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+article{
+    padding: 1em;
+}
+  
+  
+.img_1{
+      float: right;
+      width: 200px;
+      height: 200px;
+}
+  
+.img_2{
+      float: left;
+      width: 200px;
+      height: 200px;
+}
+  
+
+.header_pic{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+h1{
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#718096;
+}
+
+h2{
+    font-size: 32px;
+    color:#48BB78;
+}
+
+
+.date{
+    color:#718096;
+    margin-bottom: 30px;
+}
+
+h3{
+    color:#48BB78;
+}
+
+.social_media{
+    margin-top: 30px;
+
+}
+
+.social_media .links li a{
+    text-decoration: none;
+    color:#4299E1;
+}
+
+
+.social_media .links li {
+    list-style-type:none;
+    color:#4299E1;
+
+}
+
+#arch {
+    text-decoration: none;
+       color: #4299E1;
+       margin-top: 30px;
+}
+#arch li{
+    list-style-type:none;
+       color: #4299E1;
+}
+
+footer{
+    background-color: #2C5282;
+    color:#FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:.8em;
+    grid-column: span 5;
+    grid-row: 3;
+    height: 50px;
+}
